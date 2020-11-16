@@ -1,0 +1,20 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "autoprefixer": "^10.0.2",
+    "clean-css": "^4.2.3",
+    "concurrently": "^5.3.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.1.7"
+  },
+  "scripts": {
+    "start": "concurrently \"npx @11ty/eleventy --serve\" \"gulp\""
+  }
+}

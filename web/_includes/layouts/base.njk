@@ -2,7 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonny Kates</title>
+    <meta name="Description" content="Jonny Kates is a creative designer and front-end web developer working with charities and social enterprises in the UK">
+    {% set css %}
+    {% include "styles/main.css" %}
+    {% endset %}
+    <style>
+      {{css | cssmin | safe}}
+    </style>
   </head>
   <body>
     {{ content | safe }}

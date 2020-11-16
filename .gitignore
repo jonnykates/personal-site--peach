@@ -1,2 +1,4 @@
 node_modules/
 _site/
+web/_includes/styles/main.css
+web/_includes/styles/main.css.map
