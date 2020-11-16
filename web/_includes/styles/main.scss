@@ -1,5 +1,17 @@
 @import "normalize";
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: $sand;
+  color: $black;
+  border: 1.25em solid $white;
+  min-height: 100vh;
+  font-size: 16px;
+}
 
 body {
-  background: blue;
 }
