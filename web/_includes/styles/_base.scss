@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+html {
+  background: $sand;
+  color: $black;
+  border: $site-border-width solid $white;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Bitter", serif;
+  line-height: 1.6;
+}
